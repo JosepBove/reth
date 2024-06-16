@@ -2,3 +2,8 @@
 
 [template]
 sub_templates = ["examples/exex/minimal", "examples/node-custom-rpc", "examples/custom-payload-builder"]
+
+[hooks]
+#init = [...]
+#pre = ["pre-script.rhai"]
+post = ["hook.rhai"]
